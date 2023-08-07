@@ -8,7 +8,8 @@
     "ghost-el-proxy": "./bin/ghost-eth-proxy.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./bin/ghost-eth-proxy.js 8080 https://lodestar-mainnetrpc.chainsafe.io"
   },
   "type": "module",
   "author": "",
