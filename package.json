@@ -1,0 +1,19 @@
+{
+  "name": "ghost-eth-proxy",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Eth execution proxy with unsafe response",
+  "main": "lib/index.js",
+  "bin": {
+    "ghost-el-proxy": "./bin/ghost-eth-proxy.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "http-proxy": "^1.18.1"
+  }
+}
